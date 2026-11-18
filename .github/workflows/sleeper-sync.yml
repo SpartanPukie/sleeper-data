@@ -1,0 +1,150 @@
+name: Sleeper sync
+
+on:
+  schedule:
+    # Every 15 minutes. GitHub may delay scheduled runs a few minutes at busy times.
+    - cron: "*/15 * * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sleeper-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    env:
+      LEAGUE_ID: "1395780188561772544"
+      API: "https://api.sleeper.app/v1"
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch Sleeper data
+        run: |
+          set -euo pipefail
+          mkdir -p data
+          get() { curl -fsS --retry 3 --retry-delay 5 "$API/$1" -o "$2"; }
+
+          get "state/nfl"                         data/state.json
+          WEEK=$(jq -r '.display_week // .week' data/state.json)
+          echo "Week $WEEK"
+
+          get "league/$LEAGUE_ID"                 data/league.json
+          get "league/$LEAGUE_ID/users"           data/users.json
+          get "league/$LEAGUE_ID/rosters"         data/rosters.json
+          get "league/$LEAGUE_ID/matchups/$WEEK"  data/matchups_current.json
+          get "league/$LEAGUE_ID/transactions/$WEEK" data/transactions_current.json
+          if [ "$WEEK" -gt 1 ]; then
+            get "league/$LEAGUE_ID/matchups/$((WEEK-1))"     data/matchups_previous.json
+            get "league/$LEAGUE_ID/transactions/$((WEEK-1))" data/transactions_previous.json
+          else
+            echo "[]" > data/transactions_previous.json
+          fi
+          get "players/nfl/trending/add?lookback_hours=48&limit=50"  data/trending_add.json
+          get "players/nfl/trending/drop?lookback_hours=48&limit=30" data/trending_drop.json
+
+          # Full player database is ~5 MB: refresh about once an hour.
+          if [ ! -f data/players.json ] || [ "$(date -u +%M)" \< "15" ] || [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            get "players/nfl" /tmp/players_full.json
+          fi
+
+      - name: Build free agents and transaction log
+        run: |
+          python3 - <<'PY'
+          import json, os, time
+          from datetime import datetime, timezone, timedelta
+
+          D = "data"
+          load = lambda f: json.load(open(os.path.join(D, f)))
+          rosters, users, league = load("rosters.json"), load("users.json"), load("league.json")
+          trend_add = {t["player_id"]: t["count"] for t in load("trending_add.json")}
+          trend_drop = {t["player_id"]: t["count"] for t in load("trending_drop.json")}
+          txns = load("transactions_current.json") + load("transactions_previous.json")
+
+          # Slim player file (all fantasy positions on an NFL team, plus anything rostered)
+          rostered = {}
+          for r in rosters:
+              for pid in (r.get("players") or []) + (r.get("reserve") or []) + (r.get("taxi") or []):
+                  rostered[pid] = r["roster_id"]
+          if os.path.exists("/tmp/players_full.json"):
+              full = json.load(open("/tmp/players_full.json"))
+              keep = {}
+              for pid, p in full.items():
+                  pos = p.get("position")
+                  if pid in rostered or (pos in ("QB", "RB", "WR", "TE", "K", "DEF") and p.get("team") and p.get("active", True)):
+                      keep[pid] = {
+                          "name": (p.get("full_name") or f'{p.get("first_name","")} {p.get("last_name","")}').strip(),
+                          "pos": pos, "team": p.get("team"),
+                          "injury_status": p.get("injury_status"), "injury_body_part": p.get("injury_body_part"),
+                          "injury_notes": p.get("injury_notes"), "practice": p.get("practice_participation"),
+                          "depth_chart_order": p.get("depth_chart_order"), "years_exp": p.get("years_exp"),
+                      }
+              json.dump(keep, open(os.path.join(D, "players.json"), "w"), separators=(",", ":"))
+          players = load("players.json")
+          pname = lambda pid: players.get(pid, {}).get("name") or pid
+
+          # Team names
+          owner_name = {u["user_id"]: (u.get("metadata") or {}).get("team_name") or u.get("display_name") for u in users}
+          team = {r["roster_id"]: owner_name.get(r.get("owner_id"), f'Team {r["roster_id"]}') for r in rosters}
+
+          # Transaction log: every add/drop/trade, newest first
+          log = []
+          for t in txns:
+              ts = (t.get("status_updated") or t.get("created") or 0) / 1000
+              log.append({
+                  "when_utc": datetime.fromtimestamp(ts, timezone.utc).strftime("%Y-%m-%d %H:%M"),
+                  "ts": ts, "type": t.get("type"), "status": t.get("status"),
+                  "adds": [{"player": pname(p), "pos": players.get(p, {}).get("pos"), "to": team.get(rid)} for p, rid in (t.get("adds") or {}).items()],
+                  "drops": [{"player": pname(p), "pos": players.get(p, {}).get("pos"), "from": team.get(rid)} for p, rid in (t.get("drops") or {}).items()],
+                  "waiver_bid": (t.get("settings") or {}).get("waiver_bid"),
+              })
+          log.sort(key=lambda x: -x["ts"])
+          json.dump(log, open(os.path.join(D, "transactions_log.json"), "w"), indent=1)
+
+          # Free agents vs on waivers. A dropped player sits on waivers for the
+          # league's waiver_clear_days (default 2) before becoming a free agent.
+          clear_days = (league.get("settings") or {}).get("waiver_clear_days", 2)
+          now = time.time()
+          recently_dropped = {}
+          for t in txns:
+              if t.get("status") != "complete":
+                  continue
+              ts = (t.get("status_updated") or t.get("created") or 0) / 1000
+              for pid in (t.get("drops") or {}):
+                  if pid not in (t.get("adds") or {}) and ts > recently_dropped.get(pid, 0):
+                      recently_dropped[pid] = ts
+
+          avail = []
+          for pid, p in players.items():
+              if pid in rostered or p.get("pos") not in ("QB", "RB", "WR", "TE", "K", "DEF"):
+                  continue
+              dropped = recently_dropped.get(pid)
+              on_waivers = bool(dropped and now - dropped < clear_days * 86400)
+              avail.append({
+                  "id": pid, **p,
+                  "trending_adds_48h": trend_add.get(pid, 0), "trending_drops_48h": trend_drop.get(pid, 0),
+                  "status_in_league": "waivers" if on_waivers else "free_agent",
+                  "dropped_utc": datetime.fromtimestamp(dropped, timezone.utc).strftime("%Y-%m-%d %H:%M") if dropped else None,
+              })
+          avail.sort(key=lambda x: (-x["trending_adds_48h"], x["pos"] or "", x["name"]))
+          json.dump(avail, open(os.path.join(D, "free_agents.json"), "w"), separators=(",", ":"))
+          json.dump([a for a in avail if a["dropped_utc"]], open(os.path.join(D, "recently_dropped.json"), "w"), indent=1)
+
+          open(os.path.join(D, "updated_at.txt"), "w").write(datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ") + "\n")
+          print(f"{len(avail)} available players, {len(log)} transactions")
+          PY
+
+      - name: Commit if changed
+        run: |
+          git config user.name  "sleeper-sync"
+          git config user.email "sleeper-sync@users.noreply.github.com"
+          git add data
+          if git diff --cached --quiet -- data ':!data/updated_at.txt'; then
+            echo "No data changes"
+          else
+            git commit -m "Sleeper data $(cat data/updated_at.txt)"
+            git push
+          fi
