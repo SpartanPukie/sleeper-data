@@ -1,5 +1,92 @@
 [
  {
+  "when_utc": "2026-11-18 12:03",
+  "ts": 1795003402.441,
+  "type": "free_agent",
+  "status": "complete",
+  "adds": [
+   {
+    "player": "Denver Broncos",
+    "pos": "DEF",
+    "to": "willy2602"
+   }
+  ],
+  "drops": [],
+  "waiver_bid": null
+ },
+ {
+  "when_utc": "2026-11-18 12:02",
+  "ts": 1795003373.646,
+  "type": "free_agent",
+  "status": "complete",
+  "adds": [],
+  "drops": [
+   {
+    "player": "Kaleb Johnson",
+    "pos": "RB",
+    "from": "willy2602"
+   }
+  ],
+  "waiver_bid": null
+ },
+ {
+  "when_utc": "2026-11-18 12:02",
+  "ts": 1795003333.082,
+  "type": "free_agent",
+  "status": "complete",
+  "adds": [
+   {
+    "player": "Drew Stevens",
+    "pos": "K",
+    "to": "NotASerialKillr"
+   }
+  ],
+  "drops": [
+   {
+    "player": "Jason Myers",
+    "pos": "K",
+    "from": "NotASerialKillr"
+   }
+  ],
+  "waiver_bid": null
+ },
+ {
+  "when_utc": "2026-11-18 12:01",
+  "ts": 1795003303.39,
+  "type": "free_agent",
+  "status": "complete",
+  "adds": [],
+  "drops": [
+   {
+    "player": "Devin Singletary",
+    "pos": "RB",
+    "from": "HellenKeller"
+   }
+  ],
+  "waiver_bid": null
+ },
+ {
+  "when_utc": "2026-11-18 11:53",
+  "ts": 1795002823.19,
+  "type": "free_agent",
+  "status": "complete",
+  "adds": [
+   {
+    "player": "Michael Mayer",
+    "pos": "TE",
+    "to": "Brrrrrrrrrrrrrrrrrrrt"
+   }
+  ],
+  "drops": [
+   {
+    "player": "Dylan Sampson",
+    "pos": "RB",
+    "from": "Brrrrrrrrrrrrrrrrrrrt"
+   }
+  ],
+  "waiver_bid": null
+ },
+ {
   "when_utc": "2026-11-18 11:20",
   "ts": 1795000858.204,
   "type": "free_agent",
