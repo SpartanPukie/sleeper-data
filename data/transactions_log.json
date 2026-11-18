@@ -1,5 +1,26 @@
 [
  {
+  "when_utc": "2026-11-18 11:20",
+  "ts": 1795000858.204,
+  "type": "free_agent",
+  "status": "complete",
+  "adds": [
+   {
+    "player": "Bo Nix",
+    "pos": "QB",
+    "to": "Likely to Chase Brown DK"
+   }
+  ],
+  "drops": [
+   {
+    "player": "A.J. Brown",
+    "pos": "WR",
+    "from": "Likely to Chase Brown DK"
+   }
+  ],
+  "waiver_bid": null
+ },
+ {
   "when_utc": "2026-11-18 08:09",
   "ts": 1794989398.712,
   "type": "waiver",
