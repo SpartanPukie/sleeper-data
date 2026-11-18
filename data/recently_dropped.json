@@ -10,10 +10,26 @@
   "practice": null,
   "depth_chart_order": 2,
   "years_exp": 0,
-  "trending_adds_48h": 1151880,
+  "trending_adds_48h": 1172144,
   "trending_drops_48h": 0,
   "status_in_league": "free_agent",
   "dropped_utc": "2026-11-12 15:59"
+ },
+ {
+  "id": "96",
+  "name": "Aaron Rodgers",
+  "pos": "QB",
+  "team": "PIT",
+  "injury_status": null,
+  "injury_body_part": null,
+  "injury_notes": null,
+  "practice": null,
+  "depth_chart_order": 1,
+  "years_exp": 21,
+  "trending_adds_48h": 89344,
+  "trending_drops_48h": 0,
+  "status_in_league": "waivers",
+  "dropped_utc": "2026-11-18 02:03"
  },
  {
   "id": "CIN",
@@ -46,22 +62,6 @@
   "trending_drops_48h": 0,
   "status_in_league": "waivers",
   "dropped_utc": "2026-11-18 08:09"
- },
- {
-  "id": "96",
-  "name": "Aaron Rodgers",
-  "pos": "QB",
-  "team": "PIT",
-  "injury_status": null,
-  "injury_body_part": null,
-  "injury_notes": null,
-  "practice": null,
-  "depth_chart_order": 1,
-  "years_exp": 21,
-  "trending_adds_48h": 0,
-  "trending_drops_48h": 0,
-  "status_in_league": "waivers",
-  "dropped_utc": "2026-11-18 02:03"
  },
  {
   "id": "9228",
