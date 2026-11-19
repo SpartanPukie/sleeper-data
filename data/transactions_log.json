@@ -1,5 +1,26 @@
 [
  {
+  "when_utc": "2026-11-19 20:15",
+  "ts": 1795119333.423,
+  "type": "free_agent",
+  "status": "complete",
+  "adds": [
+   {
+    "player": "Jason Sanders",
+    "pos": "K",
+    "to": "HellenKeller"
+   }
+  ],
+  "drops": [
+   {
+    "player": "DeMario Douglas",
+    "pos": "WR",
+    "from": "HellenKeller"
+   }
+  ],
+  "waiver_bid": null
+ },
+ {
   "when_utc": "2026-11-19 16:06",
   "ts": 1795104384.349,
   "type": "free_agent",
