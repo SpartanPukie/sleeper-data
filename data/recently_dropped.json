@@ -10,7 +10,7 @@
   "practice": null,
   "depth_chart_order": 2,
   "years_exp": 0,
-  "trending_adds_48h": 1141848,
+  "trending_adds_48h": 1107976,
   "trending_drops_48h": 0,
   "status_in_league": "free_agent",
   "dropped_utc": "2026-11-12 15:59"
@@ -26,10 +26,26 @@
   "practice": null,
   "depth_chart_order": 1,
   "years_exp": 21,
-  "trending_adds_48h": 146200,
+  "trending_adds_48h": 144852,
   "trending_drops_48h": 0,
   "status_in_league": "waivers",
   "dropped_utc": "2026-11-18 02:03"
+ },
+ {
+  "id": "BAL",
+  "name": "Baltimore Ravens",
+  "pos": "DEF",
+  "team": "BAL",
+  "injury_status": null,
+  "injury_body_part": null,
+  "injury_notes": null,
+  "practice": null,
+  "depth_chart_order": null,
+  "years_exp": null,
+  "trending_adds_48h": 0,
+  "trending_drops_48h": 440346,
+  "status_in_league": "waivers",
+  "dropped_utc": "2026-11-19 16:01"
  },
  {
   "id": "CIN",
@@ -75,7 +91,7 @@
   "depth_chart_order": 1,
   "years_exp": 11,
   "trending_adds_48h": 0,
-  "trending_drops_48h": 644515,
+  "trending_drops_48h": 612865,
   "status_in_league": "waivers",
   "dropped_utc": "2026-11-18 12:02"
  },
@@ -139,7 +155,7 @@
   "depth_chart_order": 2,
   "years_exp": 7,
   "trending_adds_48h": 0,
-  "trending_drops_48h": 1043145,
+  "trending_drops_48h": 984006,
   "status_in_league": "waivers",
   "dropped_utc": "2026-11-18 12:01"
  },
@@ -224,6 +240,22 @@
   "dropped_utc": "2026-11-18 11:20"
  },
  {
+  "id": "4039",
+  "name": "Cooper Kupp",
+  "pos": "WR",
+  "team": "SEA",
+  "injury_status": null,
+  "injury_body_part": null,
+  "injury_notes": null,
+  "practice": null,
+  "depth_chart_order": 3,
+  "years_exp": 9,
+  "trending_adds_48h": 0,
+  "trending_drops_48h": 0,
+  "status_in_league": "waivers",
+  "dropped_utc": "2026-11-19 16:06"
+ },
+ {
   "id": "10232",
   "name": "Michael Wilson",
   "pos": "WR",
@@ -235,7 +267,7 @@
   "depth_chart_order": 9,
   "years_exp": 3,
   "trending_adds_48h": 0,
-  "trending_drops_48h": 216864,
+  "trending_drops_48h": 207792,
   "status_in_league": "free_agent",
   "dropped_utc": "2026-11-11 12:59"
  },

@@ -1,5 +1,41 @@
 [
  {
+  "when_utc": "2026-11-19 16:06",
+  "ts": 1795104384.349,
+  "type": "free_agent",
+  "status": "complete",
+  "adds": [
+   {
+    "player": "Chris Godwin Jr.",
+    "pos": "WR",
+    "to": "Blackdickerhurts"
+   }
+  ],
+  "drops": [
+   {
+    "player": "Cooper Kupp",
+    "pos": "WR",
+    "from": "Blackdickerhurts"
+   }
+  ],
+  "waiver_bid": null
+ },
+ {
+  "when_utc": "2026-11-19 16:01",
+  "ts": 1795104097.419,
+  "type": "free_agent",
+  "status": "complete",
+  "adds": [],
+  "drops": [
+   {
+    "player": "Baltimore Ravens",
+    "pos": "DEF",
+    "from": "Blackdickerhurts"
+   }
+  ],
+  "waiver_bid": null
+ },
+ {
   "when_utc": "2026-11-18 12:03",
   "ts": 1795003402.441,
   "type": "free_agent",
