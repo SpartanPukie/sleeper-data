@@ -1,5 +1,20 @@
 [
  {
+  "when_utc": "2026-11-20 07:19",
+  "ts": 1795159152.841,
+  "type": "waiver",
+  "status": "failed",
+  "adds": [
+   {
+    "player": "Cincinnati Bengals",
+    "pos": "DEF",
+    "to": "Blackdickerhurts"
+   }
+  ],
+  "drops": [],
+  "waiver_bid": null
+ },
+ {
   "when_utc": "2026-11-19 20:53",
   "ts": 1795121584.749,
   "type": "free_agent",
