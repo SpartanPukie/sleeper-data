@@ -1,5 +1,36 @@
 [
  {
+  "when_utc": "2026-11-20 08:49",
+  "ts": 1795164556.179,
+  "type": "trade",
+  "status": "complete",
+  "adds": [
+   {
+    "player": "Jalen Coker",
+    "pos": "WR",
+    "to": "Brrrrrrrrrrrrrrrrrrrt"
+   },
+   {
+    "player": "Jared Goff",
+    "pos": "QB",
+    "to": "Football team."
+   }
+  ],
+  "drops": [
+   {
+    "player": "Jalen Coker",
+    "pos": "WR",
+    "from": "Football team."
+   },
+   {
+    "player": "Jared Goff",
+    "pos": "QB",
+    "from": "Brrrrrrrrrrrrrrrrrrrt"
+   }
+  ],
+  "waiver_bid": null
+ },
+ {
   "when_utc": "2026-11-20 07:19",
   "ts": 1795159152.841,
   "type": "waiver",
