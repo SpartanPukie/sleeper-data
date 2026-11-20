@@ -10,8 +10,8 @@
   "practice": null,
   "depth_chart_order": 2,
   "years_exp": 0,
-  "trending_adds_48h": 483600,
-  "trending_drops_48h": 163088,
+  "trending_adds_48h": 457656,
+  "trending_drops_48h": 162000,
   "status_in_league": "free_agent",
   "dropped_utc": "2026-11-12 15:59"
  },
@@ -26,7 +26,7 @@
   "practice": null,
   "depth_chart_order": 1,
   "years_exp": 21,
-  "trending_adds_48h": 140092,
+  "trending_adds_48h": 134264,
   "trending_drops_48h": 0,
   "status_in_league": "free_agent",
   "dropped_utc": "2026-11-18 02:03"
@@ -43,7 +43,7 @@
   "depth_chart_order": null,
   "years_exp": null,
   "trending_adds_48h": 0,
-  "trending_drops_48h": 209565,
+  "trending_drops_48h": 193320,
   "status_in_league": "waivers",
   "dropped_utc": "2026-11-19 16:01"
  },
@@ -91,7 +91,7 @@
   "depth_chart_order": 1,
   "years_exp": 11,
   "trending_adds_48h": 0,
-  "trending_drops_48h": 542030,
+  "trending_drops_48h": 516905,
   "status_in_league": "free_agent",
   "dropped_utc": "2026-11-18 12:02"
  },
@@ -155,7 +155,7 @@
   "depth_chart_order": 2,
   "years_exp": 7,
   "trending_adds_48h": 0,
-  "trending_drops_48h": 576999,
+  "trending_drops_48h": 544131,
   "status_in_league": "free_agent",
   "dropped_utc": "2026-11-18 12:01"
  },
@@ -299,7 +299,7 @@
   "depth_chart_order": 9,
   "years_exp": 3,
   "trending_adds_48h": 0,
-  "trending_drops_48h": 186885,
+  "trending_drops_48h": 180990,
   "status_in_league": "free_agent",
   "dropped_utc": "2026-11-11 12:59"
  },
