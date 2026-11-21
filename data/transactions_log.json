@@ -1,5 +1,26 @@
 [
  {
+  "when_utc": "2026-11-21 03:39",
+  "ts": 1795232353.644,
+  "type": "free_agent",
+  "status": "complete",
+  "adds": [
+   {
+    "player": "Bryce Young",
+    "pos": "QB",
+    "to": "Likely to Chase Brown DK"
+   }
+  ],
+  "drops": [
+   {
+    "player": "Drake Maye",
+    "pos": "QB",
+    "from": "Likely to Chase Brown DK"
+   }
+  ],
+  "waiver_bid": null
+ },
+ {
   "when_utc": "2026-11-20 08:49",
   "ts": 1795164556.179,
   "type": "trade",

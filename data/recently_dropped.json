@@ -10,8 +10,8 @@
   "practice": null,
   "depth_chart_order": 2,
   "years_exp": 0,
-  "trending_adds_48h": 259072,
-  "trending_drops_48h": 186336,
+  "trending_adds_48h": 233656,
+  "trending_drops_48h": 186776,
   "status_in_league": "free_agent",
   "dropped_utc": "2026-11-12 15:59"
  },
@@ -26,7 +26,7 @@
   "practice": null,
   "depth_chart_order": 1,
   "years_exp": 21,
-  "trending_adds_48h": 98920,
+  "trending_adds_48h": 94200,
   "trending_drops_48h": 0,
   "status_in_league": "free_agent",
   "dropped_utc": "2026-11-18 02:03"
@@ -43,7 +43,7 @@
   "depth_chart_order": null,
   "years_exp": null,
   "trending_adds_48h": 0,
-  "trending_drops_48h": 111420,
+  "trending_drops_48h": 107877,
   "status_in_league": "waivers",
   "dropped_utc": "2026-11-19 16:01"
  },
@@ -91,25 +91,25 @@
   "depth_chart_order": 1,
   "years_exp": 11,
   "trending_adds_48h": 0,
-  "trending_drops_48h": 351020,
+  "trending_drops_48h": 342780,
   "status_in_league": "free_agent",
   "dropped_utc": "2026-11-18 12:02"
  },
  {
-  "id": "9228",
-  "name": "Bryce Young",
+  "id": "11564",
+  "name": "Drake Maye",
   "pos": "QB",
-  "team": "CAR",
-  "injury_status": null,
-  "injury_body_part": null,
+  "team": "NE",
+  "injury_status": "Out",
+  "injury_body_part": "Ankle",
   "injury_notes": null,
   "practice": null,
   "depth_chart_order": 1,
-  "years_exp": 3,
+  "years_exp": 2,
   "trending_adds_48h": 0,
   "trending_drops_48h": 0,
-  "status_in_league": "free_agent",
-  "dropped_utc": "2026-11-18 08:09"
+  "status_in_league": "waivers",
+  "dropped_utc": "2026-11-21 03:39"
  },
  {
   "id": "8161",
@@ -155,7 +155,7 @@
   "depth_chart_order": 2,
   "years_exp": 7,
   "trending_adds_48h": 0,
-  "trending_drops_48h": 356472,
+  "trending_drops_48h": 347175,
   "status_in_league": "free_agent",
   "dropped_utc": "2026-11-18 12:01"
  },
@@ -299,7 +299,7 @@
   "depth_chart_order": 9,
   "years_exp": 3,
   "trending_adds_48h": 0,
-  "trending_drops_48h": 132939,
+  "trending_drops_48h": 129987,
   "status_in_league": "free_agent",
   "dropped_utc": "2026-11-11 12:59"
  },
