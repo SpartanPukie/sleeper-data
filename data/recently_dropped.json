@@ -10,8 +10,8 @@
   "practice": null,
   "depth_chart_order": 2,
   "years_exp": 0,
-  "trending_adds_48h": 105376,
-  "trending_drops_48h": 189368,
+  "trending_adds_48h": 88584,
+  "trending_drops_48h": 187104,
   "status_in_league": "free_agent",
   "dropped_utc": "2026-11-12 15:59"
  },
@@ -26,7 +26,7 @@
   "practice": null,
   "depth_chart_order": 1,
   "years_exp": 21,
-  "trending_adds_48h": 67500,
+  "trending_adds_48h": 63108,
   "trending_drops_48h": 0,
   "status_in_league": "free_agent",
   "dropped_utc": "2026-11-18 02:03"
@@ -91,7 +91,7 @@
   "depth_chart_order": 1,
   "years_exp": 11,
   "trending_adds_48h": 0,
-  "trending_drops_48h": 244245,
+  "trending_drops_48h": 226445,
   "status_in_league": "free_agent",
   "dropped_utc": "2026-11-18 12:02"
  },
@@ -155,7 +155,7 @@
   "depth_chart_order": 2,
   "years_exp": 7,
   "trending_adds_48h": 0,
-  "trending_drops_48h": 249696,
+  "trending_drops_48h": 234495,
   "status_in_league": "free_agent",
   "dropped_utc": "2026-11-18 12:01"
  },
@@ -190,6 +190,22 @@
   "trending_drops_48h": 0,
   "status_in_league": "free_agent",
   "dropped_utc": "2026-11-18 12:02"
+ },
+ {
+  "id": "8116",
+  "name": "Pierre Strong Jr.",
+  "pos": "RB",
+  "team": "GB",
+  "injury_status": null,
+  "injury_body_part": null,
+  "injury_notes": null,
+  "practice": null,
+  "depth_chart_order": null,
+  "years_exp": 4,
+  "trending_adds_48h": 0,
+  "trending_drops_48h": 0,
+  "status_in_league": "free_agent",
+  "dropped_utc": "2026-11-18 08:09"
  },
  {
   "id": "11603",
@@ -283,7 +299,7 @@
   "depth_chart_order": 9,
   "years_exp": 3,
   "trending_adds_48h": 0,
-  "trending_drops_48h": 101313,
+  "trending_drops_48h": 95850,
   "status_in_league": "free_agent",
   "dropped_utc": "2026-11-11 12:59"
  },
