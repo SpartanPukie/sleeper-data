@@ -10,26 +10,10 @@
   "practice": null,
   "depth_chart_order": 1,
   "years_exp": 21,
-  "trending_adds_48h": 47032,
+  "trending_adds_48h": 37788,
   "trending_drops_48h": 0,
   "status_in_league": "free_agent",
   "dropped_utc": "2026-11-18 02:03"
- },
- {
-  "id": "13424",
-  "name": "Seth McGowan",
-  "pos": "RB",
-  "team": "IND",
-  "injury_status": "Out",
-  "injury_body_part": "Hamstring",
-  "injury_notes": null,
-  "practice": null,
-  "depth_chart_order": 2,
-  "years_exp": 0,
-  "trending_adds_48h": 42688,
-  "trending_drops_48h": 181856,
-  "status_in_league": "free_agent",
-  "dropped_utc": "2026-11-12 15:59"
  },
  {
   "id": "BAL",
@@ -91,7 +75,7 @@
   "depth_chart_order": 1,
   "years_exp": 11,
   "trending_adds_48h": 0,
-  "trending_drops_48h": 159420,
+  "trending_drops_48h": 123615,
   "status_in_league": "free_agent",
   "dropped_utc": "2026-11-18 12:02"
  },
@@ -155,7 +139,7 @@
   "depth_chart_order": 2,
   "years_exp": 7,
   "trending_adds_48h": 0,
-  "trending_drops_48h": 199467,
+  "trending_drops_48h": 174708,
   "status_in_league": "free_agent",
   "dropped_utc": "2026-11-18 12:01"
  },
@@ -206,6 +190,22 @@
   "trending_drops_48h": 0,
   "status_in_league": "free_agent",
   "dropped_utc": "2026-11-18 08:09"
+ },
+ {
+  "id": "13424",
+  "name": "Seth McGowan",
+  "pos": "RB",
+  "team": "IND",
+  "injury_status": "Out",
+  "injury_body_part": "Hamstring",
+  "injury_notes": null,
+  "practice": null,
+  "depth_chart_order": 2,
+  "years_exp": 0,
+  "trending_adds_48h": 0,
+  "trending_drops_48h": 177576,
+  "status_in_league": "free_agent",
+  "dropped_utc": "2026-11-12 15:59"
  },
  {
   "id": "11603",
@@ -299,7 +299,7 @@
   "depth_chart_order": 9,
   "years_exp": 3,
   "trending_adds_48h": 0,
-  "trending_drops_48h": 76878,
+  "trending_drops_48h": 65880,
   "status_in_league": "free_agent",
   "dropped_utc": "2026-11-11 12:59"
  },
