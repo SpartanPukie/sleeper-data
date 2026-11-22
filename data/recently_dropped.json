@@ -1,21 +1,5 @@
 [
  {
-  "id": "13424",
-  "name": "Seth McGowan",
-  "pos": "RB",
-  "team": "IND",
-  "injury_status": "Out",
-  "injury_body_part": "Hamstring",
-  "injury_notes": null,
-  "practice": null,
-  "depth_chart_order": 2,
-  "years_exp": 0,
-  "trending_adds_48h": 88584,
-  "trending_drops_48h": 187104,
-  "status_in_league": "free_agent",
-  "dropped_utc": "2026-11-12 15:59"
- },
- {
   "id": "96",
   "name": "Aaron Rodgers",
   "pos": "QB",
@@ -26,10 +10,26 @@
   "practice": null,
   "depth_chart_order": 1,
   "years_exp": 21,
-  "trending_adds_48h": 63108,
+  "trending_adds_48h": 47032,
   "trending_drops_48h": 0,
   "status_in_league": "free_agent",
   "dropped_utc": "2026-11-18 02:03"
+ },
+ {
+  "id": "13424",
+  "name": "Seth McGowan",
+  "pos": "RB",
+  "team": "IND",
+  "injury_status": "Out",
+  "injury_body_part": "Hamstring",
+  "injury_notes": null,
+  "practice": null,
+  "depth_chart_order": 2,
+  "years_exp": 0,
+  "trending_adds_48h": 42688,
+  "trending_drops_48h": 181856,
+  "status_in_league": "free_agent",
+  "dropped_utc": "2026-11-12 15:59"
  },
  {
   "id": "BAL",
@@ -91,7 +91,7 @@
   "depth_chart_order": 1,
   "years_exp": 11,
   "trending_adds_48h": 0,
-  "trending_drops_48h": 226445,
+  "trending_drops_48h": 159420,
   "status_in_league": "free_agent",
   "dropped_utc": "2026-11-18 12:02"
  },
@@ -155,7 +155,7 @@
   "depth_chart_order": 2,
   "years_exp": 7,
   "trending_adds_48h": 0,
-  "trending_drops_48h": 234495,
+  "trending_drops_48h": 199467,
   "status_in_league": "free_agent",
   "dropped_utc": "2026-11-18 12:01"
  },
@@ -299,7 +299,7 @@
   "depth_chart_order": 9,
   "years_exp": 3,
   "trending_adds_48h": 0,
-  "trending_drops_48h": 95850,
+  "trending_drops_48h": 76878,
   "status_in_league": "free_agent",
   "dropped_utc": "2026-11-11 12:59"
  },
