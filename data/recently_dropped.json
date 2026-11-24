@@ -1,5 +1,37 @@
 [
  {
+  "id": "DET",
+  "name": "Detroit Lions",
+  "pos": "DEF",
+  "team": "DET",
+  "injury_status": null,
+  "injury_body_part": null,
+  "injury_notes": null,
+  "practice": null,
+  "depth_chart_order": null,
+  "years_exp": null,
+  "trending_adds_48h": 97722,
+  "trending_drops_48h": 200295,
+  "status_in_league": "waivers",
+  "dropped_utc": "2026-11-24 11:22"
+ },
+ {
+  "id": "13301",
+  "name": "Antonio Williams",
+  "pos": "WR",
+  "team": "WAS",
+  "injury_status": null,
+  "injury_body_part": null,
+  "injury_notes": null,
+  "practice": null,
+  "depth_chart_order": 2,
+  "years_exp": 0,
+  "trending_adds_48h": 50853,
+  "trending_drops_48h": 0,
+  "status_in_league": "free_agent",
+  "dropped_utc": "2026-11-19 20:53"
+ },
+ {
   "id": "BAL",
   "name": "Baltimore Ravens",
   "pos": "DEF",
@@ -59,7 +91,7 @@
   "depth_chart_order": 1,
   "years_exp": 11,
   "trending_adds_48h": 0,
-  "trending_drops_48h": 118425,
+  "trending_drops_48h": 118100,
   "status_in_league": "free_agent",
   "dropped_utc": "2026-11-18 12:02"
  },
@@ -139,7 +171,7 @@
   "depth_chart_order": 2,
   "years_exp": 7,
   "trending_adds_48h": 0,
-  "trending_drops_48h": 180666,
+  "trending_drops_48h": 182556,
   "status_in_league": "free_agent",
   "dropped_utc": "2026-11-18 12:01"
  },
@@ -203,7 +235,7 @@
   "depth_chart_order": 2,
   "years_exp": 0,
   "trending_adds_48h": 0,
-  "trending_drops_48h": 256232,
+  "trending_drops_48h": 270680,
   "status_in_league": "free_agent",
   "dropped_utc": "2026-11-12 15:59"
  },
@@ -238,22 +270,6 @@
   "trending_drops_48h": 0,
   "status_in_league": "free_agent",
   "dropped_utc": "2026-11-18 11:20"
- },
- {
-  "id": "13301",
-  "name": "Antonio Williams",
-  "pos": "WR",
-  "team": "WAS",
-  "injury_status": null,
-  "injury_body_part": null,
-  "injury_notes": null,
-  "practice": null,
-  "depth_chart_order": 2,
-  "years_exp": 0,
-  "trending_adds_48h": 0,
-  "trending_drops_48h": 0,
-  "status_in_league": "free_agent",
-  "dropped_utc": "2026-11-19 20:53"
  },
  {
   "id": "4039",

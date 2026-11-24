@@ -1,5 +1,20 @@
 [
  {
+  "when_utc": "2026-11-24 11:22",
+  "ts": 1795519343.558,
+  "type": "free_agent",
+  "status": "complete",
+  "adds": [],
+  "drops": [
+   {
+    "player": "Detroit Lions",
+    "pos": "DEF",
+    "from": "HellenKeller"
+   }
+  ],
+  "waiver_bid": null
+ },
+ {
   "when_utc": "2026-11-21 03:39",
   "ts": 1795232353.644,
   "type": "free_agent",
