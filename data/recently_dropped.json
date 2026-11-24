@@ -10,26 +10,10 @@
   "practice": null,
   "depth_chart_order": null,
   "years_exp": null,
-  "trending_adds_48h": 95823,
-  "trending_drops_48h": 232821,
+  "trending_adds_48h": 91674,
+  "trending_drops_48h": 282978,
   "status_in_league": "waivers",
   "dropped_utc": "2026-11-24 11:22"
- },
- {
-  "id": "13301",
-  "name": "Antonio Williams",
-  "pos": "WR",
-  "team": "WAS",
-  "injury_status": null,
-  "injury_body_part": null,
-  "injury_notes": null,
-  "practice": null,
-  "depth_chart_order": 2,
-  "years_exp": 0,
-  "trending_adds_48h": 55736,
-  "trending_drops_48h": 0,
-  "status_in_league": "free_agent",
-  "dropped_utc": "2026-11-19 20:53"
  },
  {
   "id": "12469",
@@ -42,10 +26,26 @@
   "practice": null,
   "depth_chart_order": 2,
   "years_exp": 1,
-  "trending_adds_48h": 55430,
+  "trending_adds_48h": 69840,
   "trending_drops_48h": 0,
   "status_in_league": "free_agent",
   "dropped_utc": "2026-11-18 11:53"
+ },
+ {
+  "id": "13301",
+  "name": "Antonio Williams",
+  "pos": "WR",
+  "team": "WAS",
+  "injury_status": null,
+  "injury_body_part": null,
+  "injury_notes": null,
+  "practice": null,
+  "depth_chart_order": 2,
+  "years_exp": 0,
+  "trending_adds_48h": 62272,
+  "trending_drops_48h": 0,
+  "status_in_league": "free_agent",
+  "dropped_utc": "2026-11-19 20:53"
  },
  {
   "id": "BAL",
@@ -107,7 +107,7 @@
   "depth_chart_order": 1,
   "years_exp": 11,
   "trending_adds_48h": 0,
-  "trending_drops_48h": 117410,
+  "trending_drops_48h": 115230,
   "status_in_league": "free_agent",
   "dropped_utc": "2026-11-18 12:02"
  },
@@ -187,7 +187,7 @@
   "depth_chart_order": 2,
   "years_exp": 7,
   "trending_adds_48h": 0,
-  "trending_drops_48h": 185490,
+  "trending_drops_48h": 189351,
   "status_in_league": "free_agent",
   "dropped_utc": "2026-11-18 12:01"
  },
@@ -235,7 +235,7 @@
   "depth_chart_order": 4,
   "years_exp": 0,
   "trending_adds_48h": 0,
-  "trending_drops_48h": 296224,
+  "trending_drops_48h": 333320,
   "status_in_league": "free_agent",
   "dropped_utc": "2026-11-12 15:59"
  },
