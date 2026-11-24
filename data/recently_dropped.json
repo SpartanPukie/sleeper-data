@@ -1,21 +1,5 @@
 [
  {
-  "id": "DET",
-  "name": "Detroit Lions",
-  "pos": "DEF",
-  "team": "DET",
-  "injury_status": null,
-  "injury_body_part": null,
-  "injury_notes": null,
-  "practice": null,
-  "depth_chart_order": null,
-  "years_exp": null,
-  "trending_adds_48h": 83853,
-  "trending_drops_48h": 317331,
-  "status_in_league": "waivers",
-  "dropped_utc": "2026-11-24 11:22"
- },
- {
   "id": "12469",
   "name": "Dylan Sampson",
   "pos": "RB",
@@ -26,7 +10,7 @@
   "practice": null,
   "depth_chart_order": 2,
   "years_exp": 1,
-  "trending_adds_48h": 80905,
+  "trending_adds_48h": 95395,
   "trending_drops_48h": 0,
   "status_in_league": "free_agent",
   "dropped_utc": "2026-11-18 11:53"
@@ -42,10 +26,26 @@
   "practice": null,
   "depth_chart_order": 2,
   "years_exp": 0,
-  "trending_adds_48h": 67923,
+  "trending_adds_48h": 74302,
   "trending_drops_48h": 0,
   "status_in_league": "free_agent",
   "dropped_utc": "2026-11-19 20:53"
+ },
+ {
+  "id": "DET",
+  "name": "Detroit Lions",
+  "pos": "DEF",
+  "team": "DET",
+  "injury_status": null,
+  "injury_body_part": null,
+  "injury_notes": null,
+  "practice": null,
+  "depth_chart_order": null,
+  "years_exp": null,
+  "trending_adds_48h": 56547,
+  "trending_drops_48h": 358821,
+  "status_in_league": "waivers",
+  "dropped_utc": "2026-11-24 11:22"
  },
  {
   "id": "BAL",
@@ -107,7 +107,7 @@
   "depth_chart_order": 1,
   "years_exp": 11,
   "trending_adds_48h": 0,
-  "trending_drops_48h": 100875,
+  "trending_drops_48h": 90860,
   "status_in_league": "free_agent",
   "dropped_utc": "2026-11-18 12:02"
  },
@@ -187,7 +187,7 @@
   "depth_chart_order": 2,
   "years_exp": 7,
   "trending_adds_48h": 0,
-  "trending_drops_48h": 177534,
+  "trending_drops_48h": 171882,
   "status_in_league": "free_agent",
   "dropped_utc": "2026-11-18 12:01"
  },
@@ -235,7 +235,7 @@
   "depth_chart_order": 4,
   "years_exp": 0,
   "trending_adds_48h": 0,
-  "trending_drops_48h": 356360,
+  "trending_drops_48h": 384152,
   "status_in_league": "free_agent",
   "dropped_utc": "2026-11-12 15:59"
  },
