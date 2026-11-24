@@ -10,7 +10,7 @@
   "practice": null,
   "depth_chart_order": 2,
   "years_exp": 1,
-  "trending_adds_48h": 95395,
+  "trending_adds_48h": 109265,
   "trending_drops_48h": 0,
   "status_in_league": "free_agent",
   "dropped_utc": "2026-11-18 11:53"
@@ -26,26 +26,10 @@
   "practice": null,
   "depth_chart_order": 2,
   "years_exp": 0,
-  "trending_adds_48h": 74302,
+  "trending_adds_48h": 80138,
   "trending_drops_48h": 0,
   "status_in_league": "free_agent",
   "dropped_utc": "2026-11-19 20:53"
- },
- {
-  "id": "DET",
-  "name": "Detroit Lions",
-  "pos": "DEF",
-  "team": "DET",
-  "injury_status": null,
-  "injury_body_part": null,
-  "injury_notes": null,
-  "practice": null,
-  "depth_chart_order": null,
-  "years_exp": null,
-  "trending_adds_48h": 56547,
-  "trending_drops_48h": 358821,
-  "status_in_league": "waivers",
-  "dropped_utc": "2026-11-24 11:22"
  },
  {
   "id": "BAL",
@@ -80,6 +64,22 @@
   "dropped_utc": "2026-11-18 08:09"
  },
  {
+  "id": "DET",
+  "name": "Detroit Lions",
+  "pos": "DEF",
+  "team": "DET",
+  "injury_status": null,
+  "injury_body_part": null,
+  "injury_notes": null,
+  "practice": null,
+  "depth_chart_order": null,
+  "years_exp": null,
+  "trending_adds_48h": 0,
+  "trending_drops_48h": 398502,
+  "status_in_league": "waivers",
+  "dropped_utc": "2026-11-24 11:22"
+ },
+ {
   "id": "HOU",
   "name": "Houston Texans",
   "pos": "DEF",
@@ -107,7 +107,7 @@
   "depth_chart_order": 1,
   "years_exp": 11,
   "trending_adds_48h": 0,
-  "trending_drops_48h": 90860,
+  "trending_drops_48h": 0,
   "status_in_league": "free_agent",
   "dropped_utc": "2026-11-18 12:02"
  },
@@ -187,7 +187,7 @@
   "depth_chart_order": 2,
   "years_exp": 7,
   "trending_adds_48h": 0,
-  "trending_drops_48h": 171882,
+  "trending_drops_48h": 152496,
   "status_in_league": "free_agent",
   "dropped_utc": "2026-11-18 12:01"
  },
@@ -235,7 +235,7 @@
   "depth_chart_order": 4,
   "years_exp": 0,
   "trending_adds_48h": 0,
-  "trending_drops_48h": 384152,
+  "trending_drops_48h": 406080,
   "status_in_league": "free_agent",
   "dropped_utc": "2026-11-12 15:59"
  },
