@@ -1,5 +1,41 @@
 [
  {
+  "when_utc": "2026-11-25 10:17",
+  "ts": 1795601845.718,
+  "type": "free_agent",
+  "status": "complete",
+  "adds": [
+   {
+    "player": "Houston Texans",
+    "pos": "DEF",
+    "to": "Football team."
+   }
+  ],
+  "drops": [
+   {
+    "player": "Kansas City Chiefs",
+    "pos": "DEF",
+    "from": "Football team."
+   }
+  ],
+  "waiver_bid": null
+ },
+ {
+  "when_utc": "2026-11-25 10:16",
+  "ts": 1795601816.788,
+  "type": "free_agent",
+  "status": "complete",
+  "adds": [],
+  "drops": [
+   {
+    "player": "Alvin Kamara",
+    "pos": "RB",
+    "from": "Football team."
+   }
+  ],
+  "waiver_bid": null
+ },
+ {
   "when_utc": "2026-11-25 08:16",
   "ts": 1795594588.864,
   "type": "free_agent",
