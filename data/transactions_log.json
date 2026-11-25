@@ -1,5 +1,35 @@
 [
  {
+  "when_utc": "2026-11-25 21:11",
+  "ts": 1795641093.06,
+  "type": "free_agent",
+  "status": "complete",
+  "adds": [
+   {
+    "player": "Malik Willis",
+    "pos": "QB",
+    "to": "Likely to Chase Brown DK"
+   }
+  ],
+  "drops": [],
+  "waiver_bid": null
+ },
+ {
+  "when_utc": "2026-11-25 21:11",
+  "ts": 1795641067.733,
+  "type": "free_agent",
+  "status": "complete",
+  "adds": [],
+  "drops": [
+   {
+    "player": "Lamar Jackson",
+    "pos": "QB",
+    "from": "Likely to Chase Brown DK"
+   }
+  ],
+  "waiver_bid": null
+ },
+ {
   "when_utc": "2026-11-25 10:17",
   "ts": 1795601845.718,
   "type": "free_agent",

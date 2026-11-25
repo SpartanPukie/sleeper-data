@@ -10,7 +10,7 @@
   "practice": null,
   "depth_chart_order": 2,
   "years_exp": 1,
-  "trending_adds_48h": 317430,
+  "trending_adds_48h": 322465,
   "trending_drops_48h": 0,
   "status_in_league": "free_agent",
   "dropped_utc": "2026-11-18 11:53"
@@ -43,7 +43,7 @@
   "depth_chart_order": null,
   "years_exp": null,
   "trending_adds_48h": 0,
-  "trending_drops_48h": 1120761,
+  "trending_drops_48h": 1140138,
   "status_in_league": "waivers",
   "dropped_utc": "2026-11-24 11:22"
  },
@@ -112,6 +112,22 @@
   "dropped_utc": "2026-11-21 03:39"
  },
  {
+  "id": "4881",
+  "name": "Lamar Jackson",
+  "pos": "QB",
+  "team": "BAL",
+  "injury_status": "IR",
+  "injury_body_part": "Thumb",
+  "injury_notes": "Surgery",
+  "practice": null,
+  "depth_chart_order": 2,
+  "years_exp": 8,
+  "trending_adds_48h": 0,
+  "trending_drops_48h": 0,
+  "status_in_league": "waivers",
+  "dropped_utc": "2026-11-25 21:11"
+ },
+ {
   "id": "4035",
   "name": "Alvin Kamara",
   "pos": "RB",
@@ -123,7 +139,7 @@
   "depth_chart_order": 2,
   "years_exp": 9,
   "trending_adds_48h": 0,
-  "trending_drops_48h": 175840,
+  "trending_drops_48h": 179080,
   "status_in_league": "waivers",
   "dropped_utc": "2026-11-25 10:16"
  },
@@ -139,7 +155,7 @@
   "depth_chart_order": 2,
   "years_exp": 7,
   "trending_adds_48h": 0,
-  "trending_drops_48h": 248733,
+  "trending_drops_48h": 251721,
   "status_in_league": "free_agent",
   "dropped_utc": "2026-11-18 12:01"
  },
@@ -235,7 +251,7 @@
   "depth_chart_order": 3,
   "years_exp": 3,
   "trending_adds_48h": 0,
-  "trending_drops_48h": 334896,
+  "trending_drops_48h": 337896,
   "status_in_league": "waivers",
   "dropped_utc": "2026-11-25 08:16"
  },
