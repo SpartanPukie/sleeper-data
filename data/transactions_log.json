@@ -1,5 +1,20 @@
 [
  {
+  "when_utc": "2026-11-25 08:16",
+  "ts": 1795594588.864,
+  "type": "free_agent",
+  "status": "complete",
+  "adds": [],
+  "drops": [
+   {
+    "player": "Tank Dell",
+    "pos": "WR",
+    "from": "Njigbas in London"
+   }
+  ],
+  "waiver_bid": null
+ },
+ {
   "when_utc": "2026-11-25 08:09",
   "ts": 1795594153.162,
   "type": "waiver",

@@ -10,7 +10,7 @@
   "practice": null,
   "depth_chart_order": 2,
   "years_exp": 1,
-  "trending_adds_48h": 233215,
+  "trending_adds_48h": 243420,
   "trending_drops_48h": 0,
   "status_in_league": "free_agent",
   "dropped_utc": "2026-11-18 11:53"
@@ -43,7 +43,7 @@
   "depth_chart_order": null,
   "years_exp": null,
   "trending_adds_48h": 0,
-  "trending_drops_48h": 738522,
+  "trending_drops_48h": 778671,
   "status_in_league": "waivers",
   "dropped_utc": "2026-11-24 11:22"
  },
@@ -107,7 +107,7 @@
   "depth_chart_order": 2,
   "years_exp": 7,
   "trending_adds_48h": 0,
-  "trending_drops_48h": 174627,
+  "trending_drops_48h": 181710,
   "status_in_league": "free_agent",
   "dropped_utc": "2026-11-18 12:01"
  },
@@ -190,6 +190,22 @@
   "trending_drops_48h": 0,
   "status_in_league": "waivers",
   "dropped_utc": "2026-11-25 08:09"
+ },
+ {
+  "id": "9502",
+  "name": "Tank Dell",
+  "pos": "WR",
+  "team": "HOU",
+  "injury_status": null,
+  "injury_body_part": null,
+  "injury_notes": null,
+  "practice": null,
+  "depth_chart_order": 3,
+  "years_exp": 3,
+  "trending_adds_48h": 0,
+  "trending_drops_48h": 251192,
+  "status_in_league": "waivers",
+  "dropped_utc": "2026-11-25 08:16"
  },
  {
   "id": "10213",
