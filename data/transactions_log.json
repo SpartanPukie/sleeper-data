@@ -1,5 +1,68 @@
 [
  {
+  "when_utc": "2026-11-25 08:09",
+  "ts": 1795594153.162,
+  "type": "waiver",
+  "status": "complete",
+  "adds": [
+   {
+    "player": "Jacoby Brissett",
+    "pos": "QB",
+    "to": "Likely to Chase Brown DK"
+   }
+  ],
+  "drops": [
+   {
+    "player": "Bryce Young",
+    "pos": "QB",
+    "from": "Likely to Chase Brown DK"
+   }
+  ],
+  "waiver_bid": null
+ },
+ {
+  "when_utc": "2026-11-25 08:09",
+  "ts": 1795594153.162,
+  "type": "waiver",
+  "status": "complete",
+  "adds": [
+   {
+    "player": "Antonio Williams",
+    "pos": "WR",
+    "to": "Sweetcocks"
+   }
+  ],
+  "drops": [
+   {
+    "player": "Tre Tucker",
+    "pos": "WR",
+    "from": "Sweetcocks"
+   }
+  ],
+  "waiver_bid": null
+ },
+ {
+  "when_utc": "2026-11-25 08:09",
+  "ts": 1795594153.162,
+  "type": "waiver",
+  "status": "complete",
+  "adds": [
+   {
+    "player": "Chimere Dike",
+    "pos": "WR",
+    "to": "NotASerialKillr"
+   }
+  ],
+  "drops": [
+   {
+    "player": "Makai Lemon",
+    "pos": "WR",
+    "from": "NotASerialKillr"
+   }
+  ],
+  "waiver_bid": null
+ },
+ {
   "when_utc": "2026-11-24 11:22",
   "ts": 1795519343.558,
   "type": "free_agent",
@@ -280,390 +343,6 @@
     "from": "Likely to Chase Brown DK"
    }
   ],
-  "waiver_bid": null
- },
- {
-  "when_utc": "2026-11-18 08:09",
-  "ts": 1794989398.712,
-  "type": "waiver",
-  "status": "complete",
-  "adds": [
-   {
-    "player": "Pat Bryant",
-    "pos": "WR",
-    "to": "Njigbas in London"
-   }
-  ],
-  "drops": [
-   {
-    "player": "Wan'Dale Robinson",
-    "pos": "WR",
-    "from": "Njigbas in London"
-   }
-  ],
-  "waiver_bid": null
- },
- {
-  "when_utc": "2026-11-18 08:09",
-  "ts": 1794989398.712,
-  "type": "waiver",
-  "status": "complete",
-  "adds": [
-   {
-    "player": "Elic Ayomanor",
-    "pos": "WR",
-    "to": "Njigbas in London"
-   }
-  ],
-  "drops": [],
-  "waiver_bid": null
- },
- {
-  "when_utc": "2026-11-18 08:09",
-  "ts": 1794989398.712,
-  "type": "waiver",
-  "status": "complete",
-  "adds": [
-   {
-    "player": "Mark Andrews",
-    "pos": "TE",
-    "to": "HellenKeller"
-   }
-  ],
-  "drops": [
-   {
-    "player": "AJ Barner",
-    "pos": "TE",
-    "from": "HellenKeller"
-   }
-  ],
-  "waiver_bid": null
- },
- {
-  "when_utc": "2026-11-18 08:09",
-  "ts": 1794989398.712,
-  "type": "waiver",
-  "status": "complete",
-  "adds": [
-   {
-    "player": "Detroit Lions",
-    "pos": "DEF",
-    "to": "HellenKeller"
-   }
-  ],
-  "drops": [],
-  "waiver_bid": null
- },
- {
-  "when_utc": "2026-11-18 08:09",
-  "ts": 1794989398.712,
-  "type": "waiver",
-  "status": "complete",
-  "adds": [
-   {
-    "player": "Jonathon Brooks",
-    "pos": "RB",
-    "to": "Big Benny Yahu"
-   }
-  ],
-  "drops": [],
-  "waiver_bid": null
- },
- {
-  "when_utc": "2026-11-18 08:09",
-  "ts": 1794989398.712,
-  "type": "waiver",
-  "status": "complete",
-  "adds": [
-   {
-    "player": "Emari Demercado",
-    "pos": "RB",
-    "to": "Big Benny Yahu"
-   }
-  ],
-  "drops": [
-   {
-    "player": "Pierre Strong Jr.",
-    "pos": "RB",
-    "from": "Big Benny Yahu"
-   }
-  ],
-  "waiver_bid": null
- },
- {
-  "when_utc": "2026-11-18 08:09",
-  "ts": 1794989398.712,
-  "type": "waiver",
-  "status": "complete",
-  "adds": [
-   {
-    "player": "Buffalo Bills",
-    "pos": "DEF",
-    "to": "Likely to Chase Brown DK"
-   }
-  ],
-  "drops": [
-   {
-    "player": "Cincinnati Bengals",
-    "pos": "DEF",
-    "from": "Likely to Chase Brown DK"
-   }
-  ],
-  "waiver_bid": null
- },
- {
-  "when_utc": "2026-11-18 08:09",
-  "ts": 1794989398.712,
-  "type": "waiver",
-  "status": "complete",
-  "adds": [
-   {
-    "player": "New York Giants",
-    "pos": "DEF",
-    "to": "NotASerialKillr"
-   }
-  ],
-  "drops": [
-   {
-    "player": "Houston Texans",
-    "pos": "DEF",
-    "from": "NotASerialKillr"
-   }
-  ],
-  "waiver_bid": null
- },
- {
-  "when_utc": "2026-11-18 08:09",
-  "ts": 1794989398.712,
-  "type": "waiver",
-  "status": "complete",
-  "adds": [
-   {
-    "player": "Fernando Mendoza",
-    "pos": "QB",
-    "to": "Likely to Chase Brown DK"
-   }
-  ],
-  "drops": [
-   {
-    "player": "Bryce Young",
-    "pos": "QB",
-    "from": "Likely to Chase Brown DK"
-   }
-  ],
-  "waiver_bid": null
- },
- {
-  "when_utc": "2026-11-18 08:09",
-  "ts": 1794989398.712,
-  "type": "waiver",
-  "status": "failed",
-  "adds": [
-   {
-    "player": "Elic Ayomanor",
-    "pos": "WR",
-    "to": "HellenKeller"
-   }
-  ],
-  "drops": [],
-  "waiver_bid": null
- },
- {
-  "when_utc": "2026-11-18 02:03",
-  "ts": 1794967419.099,
-  "type": "free_agent",
-  "status": "complete",
-  "adds": [],
-  "drops": [
-   {
-    "player": "Aaron Rodgers",
-    "pos": "QB",
-    "from": "Njigbas in London"
-   }
-  ],
-  "waiver_bid": null
- },
- {
-  "when_utc": "2026-11-15 16:41",
-  "ts": 1794760873.617,
-  "type": "free_agent",
-  "status": "complete",
-  "adds": [
-   {
-    "player": "Justice Hill",
-    "pos": "RB",
-    "to": "Big Benny Yahu"
-   }
-  ],
-  "drops": [
-   {
-    "player": "Sam Darnold",
-    "pos": "QB",
-    "from": "Big Benny Yahu"
-   }
-  ],
-  "waiver_bid": null
- },
- {
-  "when_utc": "2026-11-12 15:59",
-  "ts": 1794499176.737,
-  "type": "waiver",
-  "status": "complete",
-  "adds": [
-   {
-    "player": "Carnell Tate",
-    "pos": "WR",
-    "to": "NotASerialKillr"
-   }
-  ],
-  "drops": [
-   {
-    "player": "Seth McGowan",
-    "pos": "RB",
-    "from": "NotASerialKillr"
-   }
-  ],
-  "waiver_bid": null
- },
- {
-  "when_utc": "2026-11-12 15:59",
-  "ts": 1794499176.737,
-  "type": "waiver",
-  "status": "failed",
-  "adds": [
-   {
-    "player": "Carnell Tate",
-    "pos": "WR",
-    "to": "HellenKeller"
-   }
-  ],
-  "drops": [],
-  "waiver_bid": null
- },
- {
-  "when_utc": "2026-11-12 15:59",
-  "ts": 1794499176.737,
-  "type": "waiver",
-  "status": "failed",
-  "adds": [
-   {
-    "player": "David Montgomery",
-    "pos": "RB",
-    "to": "Big Benny Yahu"
-   }
-  ],
-  "drops": [],
-  "waiver_bid": null
- },
- {
-  "when_utc": "2026-11-12 15:59",
-  "ts": 1794499176.737,
-  "type": "waiver",
-  "status": "complete",
-  "adds": [
-   {
-    "player": "David Montgomery",
-    "pos": "RB",
-    "to": "Njigbas in London"
-   }
-  ],
-  "drops": [],
-  "waiver_bid": null
- },
- {
-  "when_utc": "2026-11-11 13:00",
-  "ts": 1794402007.134,
-  "type": "free_agent",
-  "status": "complete",
-  "adds": [
-   {
-    "player": "Indianapolis Colts",
-    "pos": "DEF",
-    "to": "Brrrrrrrrrrrrrrrrrrrt"
-   }
-  ],
-  "drops": [],
-  "waiver_bid": null
- },
- {
-  "when_utc": "2026-11-11 12:59",
-  "ts": 1794401974.283,
-  "type": "free_agent",
-  "status": "complete",
-  "adds": [],
-  "drops": [
-   {
-    "player": "Michael Wilson",
-    "pos": "WR",
-    "from": "Brrrrrrrrrrrrrrrrrrrt"
-   }
-  ],
-  "waiver_bid": null
- },
- {
-  "when_utc": "2026-11-11 12:42",
-  "ts": 1794400941.475,
-  "type": "free_agent",
-  "status": "complete",
-  "adds": [],
-  "drops": [
-   {
-    "player": "Malik Willis",
-    "pos": "QB",
-    "from": "Big Benny Yahu"
-   }
-  ],
-  "waiver_bid": null
- },
- {
-  "when_utc": "2026-11-11 12:17",
-  "ts": 1794399423.308,
-  "type": "free_agent",
-  "status": "complete",
-  "adds": [
-   {
-    "player": "Caleb Douglas",
-    "pos": "WR",
-    "to": "Blackdickerhurts"
-   }
-  ],
-  "drops": [
-   {
-    "player": "Elic Ayomanor",
-    "pos": "WR",
-    "from": "Blackdickerhurts"
-   }
-  ],
-  "waiver_bid": null
- },
- {
-  "when_utc": "2026-11-11 12:14",
-  "ts": 1794399291.857,
-  "type": "free_agent",
-  "status": "complete",
-  "adds": [
-   {
-    "player": "Corey Kiner",
-    "pos": "RB",
-    "to": "Blackdickerhurts"
-   }
-  ],
-  "drops": [],
-  "waiver_bid": null
- },
- {
-  "when_utc": "2026-11-11 12:03",
-  "ts": 1794398612.192,
-  "type": "free_agent",
-  "status": "complete",
-  "adds": [
-   {
-    "player": "Aaron Rodgers",
-    "pos": "QB",
-    "to": "Njigbas in London"
-   }
-  ],
-  "drops": [],
   "waiver_bid": null
  }
 ]
