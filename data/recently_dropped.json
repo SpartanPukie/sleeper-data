@@ -10,7 +10,7 @@
   "practice": null,
   "depth_chart_order": 2,
   "years_exp": 1,
-  "trending_adds_48h": 327790,
+  "trending_adds_48h": 332095,
   "trending_drops_48h": 0,
   "status_in_league": "free_agent",
   "dropped_utc": "2026-11-18 11:53"
@@ -43,7 +43,7 @@
   "depth_chart_order": null,
   "years_exp": null,
   "trending_adds_48h": 0,
-  "trending_drops_48h": 1166967,
+  "trending_drops_48h": 1193364,
   "status_in_league": "waivers",
   "dropped_utc": "2026-11-24 11:22"
  },
@@ -139,7 +139,7 @@
   "depth_chart_order": 2,
   "years_exp": 9,
   "trending_adds_48h": 0,
-  "trending_drops_48h": 183504,
+  "trending_drops_48h": 187120,
   "status_in_league": "waivers",
   "dropped_utc": "2026-11-25 10:16"
  },
@@ -155,9 +155,25 @@
   "depth_chart_order": 2,
   "years_exp": 7,
   "trending_adds_48h": 0,
-  "trending_drops_48h": 256896,
+  "trending_drops_48h": 261891,
   "status_in_league": "free_agent",
   "dropped_utc": "2026-11-18 12:01"
+ },
+ {
+  "id": "11199",
+  "name": "Emari Demercado",
+  "pos": "RB",
+  "team": "HOU",
+  "injury_status": null,
+  "injury_body_part": null,
+  "injury_notes": null,
+  "practice": null,
+  "depth_chart_order": 3,
+  "years_exp": 3,
+  "trending_adds_48h": 0,
+  "trending_drops_48h": 0,
+  "status_in_league": "waivers",
+  "dropped_utc": "2026-11-25 23:35"
  },
  {
   "id": "12504",
@@ -251,7 +267,7 @@
   "depth_chart_order": 3,
   "years_exp": 3,
   "trending_adds_48h": 0,
-  "trending_drops_48h": 342376,
+  "trending_drops_48h": 346176,
   "status_in_league": "waivers",
   "dropped_utc": "2026-11-25 08:16"
  },

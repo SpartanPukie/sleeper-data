@@ -1,5 +1,35 @@
 [
  {
+  "when_utc": "2026-11-25 23:39",
+  "ts": 1795649952.69,
+  "type": "free_agent",
+  "status": "complete",
+  "adds": [
+   {
+    "player": "Chris Rodriguez Jr.",
+    "pos": "RB",
+    "to": "Big Benny Yahu"
+   }
+  ],
+  "drops": [],
+  "waiver_bid": null
+ },
+ {
+  "when_utc": "2026-11-25 23:35",
+  "ts": 1795649739.524,
+  "type": "free_agent",
+  "status": "complete",
+  "adds": [],
+  "drops": [
+   {
+    "player": "Emari Demercado",
+    "pos": "RB",
+    "from": "Big Benny Yahu"
+   }
+  ],
+  "waiver_bid": null
+ },
+ {
   "when_utc": "2026-11-25 21:11",
   "ts": 1795641093.06,
   "type": "free_agent",
