@@ -1,5 +1,26 @@
 [
  {
+  "when_utc": "2026-11-26 23:37",
+  "ts": 1795736254.332,
+  "type": "free_agent",
+  "status": "complete",
+  "adds": [
+   {
+    "player": "Samaje Perine",
+    "pos": "RB",
+    "to": "HellenKeller"
+   }
+  ],
+  "drops": [
+   {
+    "player": "Emeka Egbuka",
+    "pos": "WR",
+    "from": "HellenKeller"
+   }
+  ],
+  "waiver_bid": null
+ },
+ {
   "when_utc": "2026-11-26 18:12",
   "ts": 1795716774.262,
   "type": "free_agent",

@@ -10,7 +10,7 @@
   "practice": null,
   "depth_chart_order": 2,
   "years_exp": 1,
-  "trending_adds_48h": 257045,
+  "trending_adds_48h": 249110,
   "trending_drops_48h": 0,
   "status_in_league": "free_agent",
   "dropped_utc": "2026-11-18 11:53"
@@ -43,7 +43,7 @@
   "depth_chart_order": null,
   "years_exp": null,
   "trending_adds_48h": 0,
-  "trending_drops_48h": 966357,
+  "trending_drops_48h": 943020,
   "status_in_league": "free_agent",
   "dropped_utc": "2026-11-24 11:22"
  },
@@ -139,7 +139,7 @@
   "depth_chart_order": 2,
   "years_exp": 9,
   "trending_adds_48h": 0,
-  "trending_drops_48h": 165984,
+  "trending_drops_48h": 164072,
   "status_in_league": "waivers",
   "dropped_utc": "2026-11-25 10:16"
  },
@@ -155,7 +155,7 @@
   "depth_chart_order": 2,
   "years_exp": 7,
   "trending_adds_48h": 0,
-  "trending_drops_48h": 232380,
+  "trending_drops_48h": 229347,
   "status_in_league": "free_agent",
   "dropped_utc": "2026-11-18 12:01"
  },
@@ -240,6 +240,22 @@
   "dropped_utc": "2026-11-19 20:15"
  },
  {
+  "id": "12514",
+  "name": "Emeka Egbuka",
+  "pos": "WR",
+  "team": "TB",
+  "injury_status": null,
+  "injury_body_part": null,
+  "injury_notes": null,
+  "practice": null,
+  "depth_chart_order": 1,
+  "years_exp": 1,
+  "trending_adds_48h": 0,
+  "trending_drops_48h": 0,
+  "status_in_league": "waivers",
+  "dropped_utc": "2026-11-26 23:37"
+ },
+ {
   "id": "13294",
   "name": "Makai Lemon",
   "pos": "WR",
@@ -267,7 +283,7 @@
   "depth_chart_order": 3,
   "years_exp": 3,
   "trending_adds_48h": 0,
-  "trending_drops_48h": 269808,
+  "trending_drops_48h": 264696,
   "status_in_league": "waivers",
   "dropped_utc": "2026-11-25 08:16"
  },
