@@ -1,5 +1,35 @@
 [
  {
+  "when_utc": "2026-11-27 06:49",
+  "ts": 1795762187.152,
+  "type": "free_agent",
+  "status": "complete",
+  "adds": [
+   {
+    "player": "Dylan Sampson",
+    "pos": "RB",
+    "to": "Blackdickerhurts"
+   }
+  ],
+  "drops": [],
+  "waiver_bid": null
+ },
+ {
+  "when_utc": "2026-11-27 06:46",
+  "ts": 1795761982.178,
+  "type": "free_agent",
+  "status": "complete",
+  "adds": [],
+  "drops": [
+   {
+    "player": "Corey Kiner",
+    "pos": "RB",
+    "from": "Blackdickerhurts"
+   }
+  ],
+  "waiver_bid": null
+ },
+ {
   "when_utc": "2026-11-27 00:00",
   "ts": 1795737613.633,
   "type": "free_agent",
