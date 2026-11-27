@@ -1,5 +1,47 @@
 [
  {
+  "when_utc": "2026-11-27 00:00",
+  "ts": 1795737613.633,
+  "type": "free_agent",
+  "status": "complete",
+  "adds": [
+   {
+    "player": "DeMario Douglas",
+    "pos": "WR",
+    "to": "Blackdickerhurts"
+   }
+  ],
+  "drops": [
+   {
+    "player": "Ashton Dulin",
+    "pos": "WR",
+    "from": "Blackdickerhurts"
+   }
+  ],
+  "waiver_bid": null
+ },
+ {
+  "when_utc": "2026-11-26 23:59",
+  "ts": 1795737578.99,
+  "type": "free_agent",
+  "status": "complete",
+  "adds": [
+   {
+    "player": "Ashton Dulin",
+    "pos": "WR",
+    "to": "Blackdickerhurts"
+   }
+  ],
+  "drops": [
+   {
+    "player": "Xavier Hutchinson",
+    "pos": "WR",
+    "from": "Blackdickerhurts"
+   }
+  ],
+  "waiver_bid": null
+ },
+ {
   "when_utc": "2026-11-26 23:37",
   "ts": 1795736254.332,
   "type": "free_agent",
